@@ -1,0 +1,1 @@
+<section class="section prose"><span class="eyebrow">EDUKASI ALAM</span><h1><?= htmlspecialchars($item['judul']) ?></h1><p class="lead"><?= htmlspecialchars($item['ringkasan']) ?></p><div><?= nl2br(htmlspecialchars($item['isi'])) ?></div><a href="<?= BASE_URL ?>/edukasi" class="text-link">← Kembali ke edukasi</a></section>
